@@ -1,4 +1,6 @@
 # learning-velocity
+Live site [here](http://students.washington.edu/eduong/info343/learning-velocity/). My example is based off of this [demo](http://www.julian.com/research/velocity/demo.html) and works best on a desktop in Chrome. It may not work as intended otherwise.
+
 This example shows the use of Velocity.js. Velocity.js is a JavaScript library designed in order to improve the ease of use and look and seamlessness of animations on websites. It also has improved and faster performance versus jQuery's animate functions or CSS animations.
 
 Some major sites that uses Velocity can be seen at this [site](http://libscore.com/#$.Velocity). Major sites include forbes.com, samsung.com, gap.com, and windows.com.
@@ -9,4 +11,3 @@ To learn more about Velocity.js, click [here](http://julian.com/research/velocit
 
 My example shows some of the cool things that can be done in a web app with Velocity.js, including different types of animations and transitions. 
 
-Live site [here](http://students.washington.edu/eduong/info343/learning-velocity/). My example is based off of this [demo](http://www.julian.com/research/velocity/demo.html) and works best on a desktop in Chrome. It may not work as intended otherwise.

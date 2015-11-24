@@ -33,6 +33,11 @@ body {
     height: 30px;
 }
 
+.xspecial {
+    position: fixed;
+    font-size: 100px;
+}
+
 .square {
     color: #C9A4DB;
 }

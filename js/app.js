@@ -38,7 +38,7 @@ $(function() {
         squareHtml += "<div class='square'><i class='fa fa-github fa-2x'></i></div>";
     }
     squareHtml += "<div class='special'><i class='fa fa-github fa-2x'></i></div>";
-    squareHtml += "<div class='square'><i class='fa fa-github fa-5x'></i></div>";
+    squareHtml += "<div class='xspecial'><i class='fa fa-github fa-5x'></i></div>";
     squares = $(squareHtml);
 
     //Animation

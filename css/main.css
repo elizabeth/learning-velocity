@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #000F19;
+    font-family: Roboto, SansSerif;
+}
+
+#title {
+    color: #fff;
+    font-size: 45px;
+}
+
+#centered, #end {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#end {
+    display: none;
+}
+
+.square, .special {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+
+.square {
+    color: #C9A4DB;
+}
+
+.special {
+    color: #78D5FF;
+}

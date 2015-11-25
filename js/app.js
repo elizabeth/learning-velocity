@@ -22,7 +22,6 @@ $(function() {
     var squares;
     var width = $(window).width();
     var height = $(window).height();
-    var chromeHeight = height - (document.documentElement.clientHeight || height);
 
     var translateZMin = -725,
         translateZMax = 600;
@@ -33,12 +32,12 @@ $(function() {
     };
 
     //to display
+    squareHtml += "<div class='special'><i class='fa fa-github fa-2x'></i></div>";
+    squareHtml += "<div class='xspecial'><i class='fa fa-github fa-5x'></i></div>";
     count = width/30;
     for (var i = 0; i < count; i++) {
         squareHtml += "<div class='square'><i class='fa fa-github fa-2x'></i></div>";
     }
-    squareHtml += "<div class='special'><i class='fa fa-github fa-2x'></i></div>";
-    squareHtml += "<div class='xspecial'><i class='fa fa-github fa-5x'></i></div>";
     squares = $(squareHtml);
 
     //Animation
@@ -60,7 +59,7 @@ $(function() {
                 function() { return Math.random() },
                 function() { return Math.random() + 0.1 }
             ]
-        }, { duration: 6000 })
+        }, { duration: 7000 })
         .velocity("reverse", { easing: "easeOutQuad" })
         .velocity({ opacity: 0 }, { duration: 2000, complete: function() {
             //Show octocat and move off screen
